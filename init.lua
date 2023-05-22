@@ -56,4 +56,3 @@ require('copilot').setup({
 --
 
 --3--
-require("hardtime").setup()
