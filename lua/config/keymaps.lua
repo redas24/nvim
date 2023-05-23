@@ -50,3 +50,10 @@ vim.api.nvim_set_keymap('n', '<Leader><Right>', ':BufferLineMoveNext<CR>', { nor
 
 -- Sort buffer by directory structure
 vim.api.nvim_set_keymap('n', '<Leader>bd', ':BufferLineSortByDirectory<CR>', { noremap = true, silent = true })
+
+--Glance plugin keymaps
+-- Lua
+vim.keymap.set('n', 'gD', '<CMD>Glance definitions<CR>')
+vim.keymap.set('n', 'gR', '<CMD>Glance references<CR>')
+vim.keymap.set('n', 'gY', '<CMD>Glance type_definitions<CR>')
+vim.keymap.set('n', 'gM', '<CMD>Glance implementations<CR>')
