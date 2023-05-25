@@ -60,3 +60,4 @@ vim.keymap.set('n', 'gM', '<CMD>Glance implementations<CR>')
 
 --Keymaps for Copilot github plugin 
 vim.keymap.set('n', '<c-C>', '<CMD>Copilot panel<CR>')
+vim.keymap.set('n' , '<c-P>', '<CMD>Copilot<CR>' )
