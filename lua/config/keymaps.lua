@@ -61,3 +61,8 @@ vim.keymap.set('n', 'gM', '<CMD>Glance implementations<CR>')
 --Keymaps for Copilot github plugin 
 vim.keymap.set('n', '<c-C>', '<CMD>Copilot panel<CR>')
 vim.keymap.set('n' , '<c-P>', '<CMD>Copilot<CR>' )
+
+--Keymaps for Copy/Paste
+vim.keymap.set({ "n", "x" }, "<leader>y", [["+y]]) -- copy to system clipboard
+
+vim.keymap.set({ "n", "x" }, "<leader>p", [["+p]]) -- paste from system clipboard
