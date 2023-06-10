@@ -63,6 +63,6 @@ vim.keymap.set('n', '<c-C>', '<CMD>Copilot panel<CR>')
 vim.keymap.set('n' , '<c-P>', '<CMD>Copilot<CR>' )
 
 --Keymaps for Copy/Paste
-vim.keymap.set({ "n", "x" }, "<leader>y", [["+y]]) -- copy to system clipboard
+vim.keymap.set({ "n", "x" }, "<Leader>y", [["+y]]) -- copy to system clipboard
 
-vim.keymap.set({ "n", "x" }, "<leader>p", [["+p]]) -- paste from system clipboard
+vim.keymap.set({ "n", "x" }, "<Leader>p", [["+p]]) -- paste from system clipboard

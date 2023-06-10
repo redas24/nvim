@@ -3,6 +3,8 @@ require("config.lazy")
 require("config.keymaps")
 require("config.options")
 --Additional configuration to plugins
+--colorscheme settings
+vim.o.background = "dark" -- or "light" for light mode
 --1--
 vim.opt.termguicolors = true
 require("bufferline").setup{}
