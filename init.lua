@@ -180,3 +180,23 @@ require('onedark').setup  {
         background = true,    -- use background color for virtual text
     },
 }
+
+-- Image_preview setup--
+require("image_preview").setup({})
+
+
+--Image setup in my init file--
+-- Require and call setup function somewhere in your init.lua
+require('image').setup {
+  render = {
+    min_padding = 5,
+    show_label = true,
+		show_image_dimensions = true,
+    use_dither = true,
+    foreground_color = false,
+    background_color = false
+  },
+  events = {
+    update_on_nvim_resize = true,
+  },
+}
