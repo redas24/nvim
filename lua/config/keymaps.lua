@@ -66,3 +66,6 @@ vim.keymap.set('n' , '<c-P>', '<CMD>Copilot<CR>' )
 vim.keymap.set({ "n", "x" }, "<Leader>y", [["+y]]) -- copy to system clipboard
 
 vim.keymap.set({ "n", "x" }, "<Leader>p", [["+p]]) -- paste from system clipboard
+
+--Image
+--vim.keymap.set('n', "<Leader>i", ':Image<CR>', { noremap = true, silent = true})
