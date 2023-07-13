@@ -200,3 +200,8 @@ require('image').setup {
     update_on_nvim_resize = true,
   },
 }
+
+    --Neogit setup--
+local neogit = require('neogit')
+
+neogit.setup {}
